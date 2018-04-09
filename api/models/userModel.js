@@ -6,7 +6,7 @@ var Schema = mongoose.Schema;
 var UserSchema = new Schema({
   name: {
     type: String,
-    required: 'Kindly enter the name of the task'
+    required: 'Enter the username of the user'
   },
   date_Added: {
     type: Date,

@@ -8,7 +8,7 @@ module.exports = function(app) {
     .post(User.create_a_task);
 
 
-  app.route('/tasks/:taskId')
+  app.route('/instagramInfo/:username')
     .get(User.read_a_task)
     .put(User.update_a_task)
     .delete(User.delete_a_task);
