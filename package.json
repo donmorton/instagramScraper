@@ -21,6 +21,7 @@
     "nodemon": "^1.17.3"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
     "mongoose": "^5.0.13",
     "npm": "^5.8.0"
