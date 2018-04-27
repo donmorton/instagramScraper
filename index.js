@@ -2,7 +2,7 @@ var cheerio = require('cheerio');
 var request = require('request');
 
 var url = 'https://www.instagram.com/';
-var username = 'donald_morton';
+var username = 'ethandellaposta';
 
 
 //console.log(url+username);
@@ -29,11 +29,26 @@ request(url, function(err,resp, body){
 		posts: numbers[2],
 		dateRequested: Date.now() //Unix time
 	};
-		console.log("====================================================================");
 
-	console.log(content);
-	console.log(numbers);
-	console.log(userInfo);
+	// console.log(body.indexOf("biography"));
 
-	console.log("==================================================================");
+ console.log("====================================================================");
+
+	// console.log($('script'));
+
+	
+		//var start_position = $('body').toString().search('window._sharedData = '); // the start position
+		console.log(userInfo);
+
+	    //console.log($('body').children("script"));
+	//    console.log("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
+	
+		
+	 console.log("====================================================================");
+
+	// console.log(content);
+	// console.log(numbers);
+	// console.log(userInfo);
+
+	// console.log("==================================================================");
 });
