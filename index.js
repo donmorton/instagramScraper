@@ -2,7 +2,7 @@ var cheerio = require('cheerio');
 var request = require('request');
 
 var url = 'https://www.instagram.com/';
-var username = 'ethandellaposta';
+var username = '';
 
 
 //console.log(url+username);
@@ -50,5 +50,5 @@ request(url, function(err,resp, body){
 	// console.log(numbers);
 	// console.log(userInfo);
 
-	// console.log("==================================================================");
+	
 });
