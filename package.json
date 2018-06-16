@@ -3,6 +3,13 @@
   "version": "1.0.2",
   "description": "A simple, lightweight Instagram scraper",
   "main": "app.js",
+  "keywords": [
+    "automation",
+    "instagram",
+    "scraper",
+    "simple",
+    "followers"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "run": "nodemon instagramScraper.js"
