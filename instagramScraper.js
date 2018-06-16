@@ -36,8 +36,9 @@ var getReport = (username) => {
 
 
 var getPerson = async() => {
-	var report = await getReport("dd0nn");
+	var report = await getReport("logic");
 		console.log(report)
 }
 
+getPerson()
 module.exports = getReport;

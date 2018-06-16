@@ -1,11 +1,11 @@
 {
-  "name": "instagramScraper",
+  "name": "simpleinstascraper",
   "version": "1.0.0",
-  "description": "RESTful instagramScraper",
+  "description": "A simple, lightweight Instagram scraper",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "nodemon app.js"
+    "run": "nodemon instagramScraper.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,6 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.3",
-    "mongoose": "^5.0.13",
     "npm": "^5.8.0",
     "request": "^2.85.0"
   }
