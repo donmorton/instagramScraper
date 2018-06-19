@@ -1,6 +1,6 @@
 {
   "name": "simple-instagram-scraper",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A simple, lightweight Instagram scraper",
   "main": "simple-instagram-scraper.js",
   "keywords": [
