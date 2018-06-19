@@ -40,4 +40,4 @@ var getPerson = async() => {
 		console.log(report)
 }
 
-module.exports = getReport;
+module.exports = {getReport};
