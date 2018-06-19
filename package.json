@@ -8,7 +8,11 @@
     "instagram",
     "scraper",
     "simple",
-    "followers"
+    "followers",
+    "data",
+    "account",
+    "grab",
+    "information"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
