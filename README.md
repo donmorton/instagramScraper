@@ -1,7 +1,7 @@
-#Simple Instagram Scraper
+# Simple Instagram Scraper
 This is a simple Instagram scraper. It returns the followers, following, and posts for a certain user. 
 
-##Usage
+## Usage
 To use the scraper create an **async function** (or implement promises). The function will have to wait for a response
 from the request to actually print something out.
 
@@ -22,7 +22,7 @@ var getPerson = async() => {
 
 As you can see, one can call the `getReport()` on the imported package and recieve a full report of the user.
 
-##Output
+## Output
 The output contains a username, follower count, following count, post count, and timestamp based on Unix Time.
 
 ```
