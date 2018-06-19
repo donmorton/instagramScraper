@@ -8,7 +8,7 @@ from the request to actually print something out.
 Importing can be done by creating a variable and requiring the package.
 
 ```
-var instagramScraper = require('./instagramScraper');
+var instagramScraper = require('simple-instagram-scraper');
 ```
 
 Below is an example of a function `getPerson()`

@@ -40,5 +40,4 @@ var getPerson = async() => {
 		console.log(report)
 }
 
-getPerson()
 module.exports = getReport;
