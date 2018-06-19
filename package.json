@@ -2,7 +2,7 @@
   "name": "simple-instagram-scraper",
   "version": "1.0.3",
   "description": "A simple, lightweight Instagram scraper",
-  "main": "app.js",
+  "main": "simple-instagram-scraper.js",
   "keywords": [
     "automation",
     "instagram",
@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "nodemon instagramScraper.js"
+    "run": "nodemon simple-instagram-scraper.js"
   },
   "repository": {
     "type": "git",
