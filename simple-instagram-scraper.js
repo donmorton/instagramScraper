@@ -1,11 +1,11 @@
-var cheerio = require('cheerio');
-var request = require('request');
-var BASE_URL = 'https://www.instagram.com/';
+const cheerio = require('cheerio');
+const request = require('request');
+const BASE_URL = 'https://www.instagram.com/';
 
 
-var getReport = (username) => {
+const getReport = (username) => {
 	
-	var url = BASE_URL+username;
+	let url = BASE_URL+username;
    
 	return new Promise(function(resolve, reject) {
 		request(url, function(err,resp, body){
@@ -13,13 +13,13 @@ var getReport = (username) => {
 				throw err;
 	
 			$ =  cheerio.load(body);
-			var content = $('meta').eq('16').attr('content');
+			let content = $('meta').eq('16').attr('content');
 			content = content.replace(/,/g , '');
-			var followers = content.substring(0,content.indexOf("Followers")).trim();
-			var following = content.substring(content.indexOf("Followers")+9,content.indexOf("Following")).trim();
-			var posts = content.substring(content.indexOf("Following")+9,content.indexOf("Posts")).trim();
+			let followers = content.substring(0,content.indexOf("Followers")).trim();
+			let following = content.substring(content.indexOf("Followers")+9,content.indexOf("Following")).trim();
+			let posts = content.substring(content.indexOf("Following")+9,content.indexOf("Posts")).trim();
 
-			var userInfo = {
+			let userInfo = {
 				username: username,
 				followers: followers,
 				following: following,
@@ -33,10 +33,8 @@ var getReport = (username) => {
 	});
   }
 
-
-
-var getPerson = async() => {
-	var report = await getReport("logic");
+const getPerson = async() => {
+	let report = await getReport("logic");
 		console.log(report)
 }
 
