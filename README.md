@@ -11,11 +11,22 @@ Importing can be done by creating a variable and requiring the package.
 const instagramScraper = require('simple-instagram-scraper');
 ```
 
-Below is an example of a function `getPerson()`
+There is only one function in this package currently and it is featured below.
 
 ```
-const getPerson = async() => {
-	let report = await instagramScraper.getReport("logic");
+const instagramScraper = require('simple-instagram-scraper');
+let report = await instagramScraper.getReport('dd0nn'); 
+```
+
+Report will now contain an output of the results for instagram user `dd0nn`.
+
+## Example
+
+Below is an example of a function `testReport()`
+
+```
+const testReport = async() => {
+	let report = await instagramScraper.getReport('logic');
 	console.log(report)
 }
 ```
