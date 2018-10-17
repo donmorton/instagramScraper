@@ -8,14 +8,14 @@ from the request to actually print something out.
 Importing can be done by creating a variable and requiring the package.
 
 ```
-var instagramScraper = require('simple-instagram-scraper');
+const instagramScraper = require('simple-instagram-scraper');
 ```
 
 Below is an example of a function `getPerson()`
 
 ```
-var getPerson = async() => {
-	var report = await instagramScraper.getReport("logic");
+const getPerson = async() => {
+	let report = await instagramScraper.getReport("logic");
 	console.log(report)
 }
 ```
