@@ -29,11 +29,11 @@
   },
   "homepage": "https://github.com/donmorton/instagramScraper#readme",
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.18.5"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "npm": "^6.4.1",
-    "request": "^2.85.0"
+    "request": "^2.88.0"
   }
 }
