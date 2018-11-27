@@ -28,9 +28,7 @@
     "url": "https://github.com/donmorton/instagramScraper/issues"
   },
   "homepage": "https://github.com/donmorton/instagramScraper#readme",
-  "devDependencies": {
-    "nodemon": "^1.18.5"
-  },
+  "devDependencies": {},
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "npm": "^6.4.1",
