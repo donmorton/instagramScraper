@@ -1,6 +1,7 @@
 # Simple Instagram Scraper
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2c07192b54aa4f79b51be7aaa11eb722)](https://app.codacy.com/app/donmorton/instagramScraper?utm_source=github.com&utm_medium=referral&utm_content=donmorton/instagramScraper&utm_campaign=Badge_Grade_Dashboard)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdonmorton%2FinstagramScraper.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdonmorton%2FinstagramScraper?ref=badge_shield)
 
 This is a simple Instagram scraper. It returns the followers, following, and posts for a certain user. 
 
@@ -46,3 +47,7 @@ The output contains a username, follower count, following count, post count, and
   posts: '1932',
   dateRequested: 1529167209700 }
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdonmorton%2FinstagramScraper.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdonmorton%2FinstagramScraper?ref=badge_large)
