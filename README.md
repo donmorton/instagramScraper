@@ -1,4 +1,7 @@
 # Simple Instagram Scraper
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2c07192b54aa4f79b51be7aaa11eb722)](https://app.codacy.com/app/donmorton/instagramScraper?utm_source=github.com&utm_medium=referral&utm_content=donmorton/instagramScraper&utm_campaign=Badge_Grade_Dashboard)
+
 This is a simple Instagram scraper. It returns the followers, following, and posts for a certain user. 
 
 ## Usage
